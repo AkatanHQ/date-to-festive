@@ -5,7 +5,7 @@
  * Configuration is included internally - just pass a date and get themes.
  */
 
-import themeRulesConfigJson from './themeRules.json';
+import themeRulesConfigJson from './themeRules.json' with { type: 'json' };
 const themeRulesConfig = themeRulesConfigJson as any;
 
 export type DateRule = 

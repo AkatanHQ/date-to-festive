@@ -1,25 +1,11 @@
-# Theme Resolver Per Day
+# Date To Festive
 
 A standalone, reusable module for resolving themes based on dates. Zero dependencies, simple API.
 
 ## Installation
 
-### From GitHub Packages
-
 ```bash
-npm install @akatanhq/theme-resolver-per-day
-```
-
-**Note:** You need to configure npm to use GitHub Packages. Create or edit `.npmrc` in your project:
-
-```
-@akatanhq:registry=https://npm.pkg.github.com
-```
-
-Or install with full registry URL:
-
-```bash
-npm install @akatanhq/theme-resolver-per-day --registry=https://npm.pkg.github.com
+npm install @akatan/date-to-festive
 ```
 
 ## Usage
@@ -27,7 +13,7 @@ npm install @akatanhq/theme-resolver-per-day --registry=https://npm.pkg.github.c
 ### Simple Example
 
 ```typescript
-import { resolvePrimaryThemeForDate } from '@akatanhq/theme-resolver-per-day';
+import { resolvePrimaryThemeForDate } from '@akatanhq/date-to-festive';
 
 // Get today's theme
 const theme = resolvePrimaryThemeForDate(new Date());
@@ -38,7 +24,7 @@ console.log(theme);
 ### Get All Matching Themes
 
 ```typescript
-import { resolveThemesForDate } from '@akatanhq/theme-resolver-per-day';
+import { resolveThemesForDate } from '@akatan/date-to-festive';
 
 // Get all themes for Christmas
 const themes = resolveThemesForDate(new Date('2025-12-25'));
@@ -104,4 +90,4 @@ MIT
 
 ## Repository
 
-https://github.com/akatanhq/theme-resolver-per-day
+https://github.com/akatanhq/date-to-festive

@@ -5,4 +5,4 @@
  * Just pass a date and get matching themes - configuration is handled internally.
  */
 
-export * from './resolver';
+export * from './resolver.js';
