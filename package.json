@@ -1,6 +1,6 @@
 {
   "name": "@akatan/date-to-festive",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A standalone, reusable module for resolving themes based on dates",
   "type": "module",
   "main": "dist/index.js",
