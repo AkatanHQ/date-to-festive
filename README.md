@@ -1,4 +1,4 @@
-# Date To Festive
+# Date to Festive
 
 A standalone, reusable module for resolving themes based on dates. Zero dependencies, simple API.
 
